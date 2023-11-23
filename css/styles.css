@@ -1,0 +1,408 @@
+/* styles.css */
+.logo {
+    width: 220px;
+    height: 120px;
+    }
+    
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c6c78b;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.menu {
+    background-color: #f4cca8;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    width: 100%; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.main-content {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+footer {
+    background-color: #c6c78b;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 { font-family: arial, sans-serif;
+    font-size: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    padding: 20px;}
+    
+    
+    .parrafoUno { text-align: justify;
+    font-family: arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    padding: 10px;}
+    .parrafoDos { text-align: justify;
+    font-family: arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    padding: 10px;}
+    
+    
+    h3 { font-size:18px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 20px;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+.contenido{
+    max-width: 1100px;
+    width: 200px;
+    margin: 40px;
+    padding-left: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mostrador{
+    width: 60%;
+    transition: 5s ease;
+}
+.mostrador .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.mostrador .fila .item{
+    max-width: 210px;
+    padding: 50px;
+    height: 250px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 3s;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.mostrador .fila .item:hover{
+    background-color: #f4cca8 ;
+}
+.mostrador .fila .item img{
+width: 100%;
+margin: 30px 0;
+}
+
+.mostrador .fila .item .descripcion{
+    color: #090d13;
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.mostrador .fila .item .precio{
+    color: #f2766b;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+.contenido{
+    max-width: 1100px;
+    width: 200px;
+    margin: 40px;
+    padding-left: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mostrador{
+    width: 60%;
+    transition: 5s ease;
+}
+.mostrador .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.mostrador .fila .item{
+    max-width: 210px;
+    padding: 50px;
+    height: 250px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 3s;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.mostrador .fila .item:hover{
+    background-color: #f4cca8 ;
+}
+.mostrador .fila .item img{
+width: 100%;
+margin: 30px 0;
+}
+
+.mostrador .fila .item .descripcion{
+    color: #090d13;
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.mostrador .fila .item .precio{
+    color: #f2766b;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.parrafoTres { font-family: verdana;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 25px;}
+.parrafoCuatro { font-family: verdana;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 25px;}
+.parrafoCinco { font-family: verdana;
+        text-align: justify;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 10px;}
+.parrafoSeis { font-family: verdana;
+            text-align: justify;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding: 10px;}
+.parrafoSiete { font-family: verdana;
+                text-align: justify;
+                margin-top: auto;
+                margin-bottom: auto;
+                padding: 10px;}
+.parrafoOcho { font-family: verdana;
+                    text-align: justify;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    padding: 10px;}
+.parrafoNueve { font-family: verdana;
+                        text-align: justify;
+                        margin-top: auto;
+                        margin-bottom: auto;
+                        padding: 10px;}
+                        div form {
+                            text-align: center;
+                        }
+.contacto { display: flex;
+    padding-left: 570px;
+    padding-right: 570px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.parrafoContacto {
+    display: flex;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: justify;
+}
+
+                        
+.contactContainer { width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        font-family: verdana;
+                        color: black;
+                        display: block;}
+                        
+.contactContainer_form_field { 
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            padding: 10px;
+                            border-radius: 08px;
+                            margin-bottom: 08px;  
+                        }
+fieldset {
+                            margin-inline-start: 2px;
+                            margin-inline-end: 2px;
+                            padding-block-start: 0.35px;
+                            padding-inline-start: 0.75px;
+                            padding-inline-end: 0.75px;
+                            padding-block-end: 0.625px;
+                            max-inline-size: min-content;
+                            border-width: 2px;
+                            border-style: groove;
+                            border-image: initial;
+                        }
+.contactContainer_form_field_title {
+                            font-size: 20px;
+                            font-weight: 200;
+                            margin: 0%;
+                            padding: 0%;
+                            box-sizing: border-box;
+                            font-family: verdana;
+                            color: black;
+                            display: block;
+                            padding-inline-start: 2px;
+                            padding-inline-end: 2px;
+                            border-width: initial;
+                            border-style: none;
+                            border-color: initial;
+                            border-image: initial;
+                        }
+.contactContainer_form_field_fullName {
+                            display: flex;
+                            gap: 10px;
+                            margin: 0%;
+                            padding: 0%;
+                            box-sizing: border-box;
+                            font-family: verdana;
+                            color: black;
+                            display: block;
+                            padding-inline-start: 2px;
+                            padding-inline-end: 2px;
+                            border-width: initial;
+                            border-style: none;
+                            border-color: initial;
+                            border-image: initial;
+                        }
+input {
+                            width: 100%;
+                            border-radius: 0.5rem;
+                            height: 2.5rem;
+                            border: 2px solid #293241;
+                            padding: 0 0.5rem;
+                            font-weight: 600;
+                            margin: 0%;
+                            padding: 0%;
+                            box-sizing: border-box;
+                            font-family: verdana;
+                            color: black;
+                        }
+input[type="text"] {
+                            padding-block: 1px;
+                            padding-inline: 2px;
+                        }
+.contactContainer_form_field--contenedorDuda { 
+                            width: 100%;
+                            margin: 0%;
+                            padding: 0%;
+                            box-sizing: border-box;
+                            font-family: verdana;
+                            color: black;
+                            display: block;
+                            display: flex;
+                            justify-content: center;
+                        }    
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+   
+    
+}
+
+@media only screen and (min-width: 1025px) {
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+  }
+  
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+  }
+    
+  @media only screen and (min-width : 321px) {
+  
+  }
+  
+  @media only screen and (max-width : 320px) {
+  
+  }
+   
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
+  }
+   
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+  and (orientation : landscape) {
+   
+  }
+   
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+  and (orientation : portrait) {
+   
+  }
+     
+  @media only screen and (min-width : 1224px) {
+    
+  }
+   
+  
+  @media only screen and (min-width : 1824px) {
+    
+  }
+    
+  @media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
+  only screen and (min-device-pixel-ratio : 1.5) {
+   
+  }
