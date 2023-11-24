@@ -33,7 +33,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    padding: 20px;
 }
 
 nav a {
@@ -55,7 +55,6 @@ footer {
     color: #333;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
