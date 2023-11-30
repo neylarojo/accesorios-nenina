@@ -1,3 +1,5 @@
+$color-principal: #f4cca8;
+
 .logo {
     width: 220px;
     height: 120px;
@@ -18,7 +20,7 @@
   }
   
   .menu {
-    background-color: #f4cca8;
+    background-color: $color-principal;
     color: #333;
     padding: 10px;
     text-align: center;
@@ -128,7 +130,7 @@
   }
   
   button {
-    background-color: #f4cca8;
+    background-color: $color-principal;
     color: black;
     padding: 10px;
     border: none;
@@ -136,7 +138,7 @@
     cursor: pointer;
   
     &:hover {
-      background-color: #f4cca8;
+      background-color: $color-principal;
     }
   }
   
@@ -234,13 +236,13 @@
       }
   
       button {
-        background: #f4cca8;
+        background: $color-principal;
         border: 0;
         text-transform: uppercase;
         padding: 1em;
   
         &:hover, &:focus {
-          background: #f4cca8;
+          background: $color-principal;
           color: black;
           transition: background-color 1s ease-out;
           outline: 0;
